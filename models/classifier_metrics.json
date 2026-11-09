@@ -1,0 +1,49 @@
+{
+  "method": "efficientnet_b0 frozen + linear head",
+  "classes": [
+    "elevation",
+    "floor_plan",
+    "section",
+    "site_plan"
+  ],
+  "n_train": 192,
+  "n_test": 48,
+  "per_class_images": 60,
+  "epochs": 60,
+  "accuracy": 1.0,
+  "train_accuracy": 1.0,
+  "per_class_accuracy": {
+    "elevation": 1.0,
+    "floor_plan": 1.0,
+    "section": 1.0,
+    "site_plan": 1.0
+  },
+  "confusion": [
+    [
+      16,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      13,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      10,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      9
+    ]
+  ],
+  "heuristic_accuracy_same_split": 0.875,
+  "train_seconds": 48.2
+}

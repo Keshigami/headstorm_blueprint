@@ -1,0 +1,48 @@
+{
+ "folder": "portfolio/headstorm_blueprint",
+ "slug": "portfolio__headstorm_blueprint",
+ "port": 8117,
+ "title": "Blueprint Analysis System",
+ "one_liner": "Classifies an architectural drawing, reads its dimensions and room labels with EasyOCR, and segments rooms and walls with OpenCV, in a Gradio demo.",
+ "duration_s": 51.6,
+ "highlight_s": 9.8,
+ "steps": [
+  {
+   "n": 1,
+   "text": "Blueprint analysis: pick the first sample; one click runs the pipeline",
+   "ok": true,
+   "t": 2.5
+  },
+  {
+   "n": 2,
+   "text": "Segmentation: rooms tinted, wall segments in red",
+   "ok": true,
+   "t": 14.8
+  },
+  {
+   "n": 3,
+   "text": "OCR: dimensions, room labels and the scale, with confidence",
+   "ok": true,
+   "t": 20.6
+  },
+  {
+   "n": 4,
+   "text": "The JSON report an integration would consume",
+   "ok": true,
+   "t": 27.4
+  },
+  {
+   "n": 5,
+   "text": "Second sample: a floor plan",
+   "ok": true,
+   "t": 33.0
+  },
+  {
+   "n": 6,
+   "text": "Its segmentation and OCR overlays",
+   "ok": true,
+   "t": 44.2
+  }
+ ],
+ "skipped": []
+}
